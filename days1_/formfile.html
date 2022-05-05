@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Çalışmam</title>
+
+</head>
+<body>
+<form action="register.js">
+    bu benim form calışmam
+   
+    <br />
+    <!-- label ile kullanıcıya istedigimizii seyi söyleriz -->
+
+<p><label for="ad">ADINIZ :</label>
+    <!-- input ile kullanıcıdan alınan bilgiy yazdırıp almıs oluruz -->
+<input type="text" id="ad"></p>
+<!-- text komutu ile genel konular alınmış olur kullanıcıdan  -->
+<p><label for="soyadı">SOYADINIZ :</label>
+<input type="text" id="soyadı"></p>
+
+<p><label for="yas">YASINIZ :</label>
+<input type="number" id="yas"></p>
+<!-- number adece ayılar alınır kullanıcıdan  -->
+
+
+<p><label for="sifre">SİFRE :</label>
+<input type="password" name="" id="sifre"></p>
+<!-- password ile kullanıcıdan sıfre almış olur  -->
+
+<p><label for="email">MAİL :</label>
+<input type="email" id="email"></p>
+<!-- email komutu ile kullanıcıdan emaili ile girer  -->
+
+
+<!-- checkbx ile birden fazla secenek seçilebiliyor -->
+<p><label for="onay">ONAYLIYORUM :</label>
+<input type="checkbox" name="aaaa" id="onay">
+<label for="onay">ONAYLamıyorum :</label>
+<input type="checkbox" name="aaaa" id="onay"></p>
+  
+
+<!-- radio ile birden fazla secenekten sadece bir tanesi secilebilir  -->
+<p><label for="cinsiyet ">kadın :</label>
+<input type="radio"name="cns" id="cinsiyet">
+<label for="cinsiyet ">erkek :</label>
+<input type="radio" name="cns" id="cinsiyet"></p>
+
+<p><label for="dosya">DOSYA YUKLE :</label>
+<input type="file" name="" id="dosya"></p>
+
+<!-- 
+    select ile kullanıcıya secenekler sounarız sonrasında
+    optio ile secenekler eklenir
+ -->
+<p><select name="iller" >
+    <option value="01">ADANA</option>
+    <option value="02">ADIYAMAN</option>
+    <option value="03">AFYON</option>
+    <option value="04">ARTVİN</option>
+    <option value="58">SİVAS</option>
+</select></p>
+
+<p>
+    <label for="adres">ADRESS :</label>
+    <textarea  id="adres" cols="20" rows="5"></textarea>
+</p>
+<!-- button ile kayıt yapılır sayfada -->
+<p><input type="button" value="KAYDET"></p>
+
+<!-- submit ile bilgiler otmatik olarak backand gönderilir saklanır
+value olmadan direk gönder kutucu cıkar ama value eklenerek ismi değiştiribiliriz -->
+<input type="submit"  value="gonder"/> 
+
+<!-- reset ie tum bilgiler temizlendi -->
+<input type="reset" value="temizle"/>
+
+
+</form>    
+</body>
+</html>
