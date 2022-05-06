@@ -1,0 +1,39 @@
+/* burda h ile ilgili tum elemanlar değişiklik yapıldı */
+
+h3 {
+    color: brown;
+    text-align: center;
+    background-color: blueviolet;
+}
+ /* burda p ile ilgili tum elemanlar değişiklik yapılır */
+p{
+    color: forestgreen;
+    text-align: left;
+    font-size: 20px;
+    background-color: red;
+}
+/* div komutu ile div ile alakalı tum elemanlar değiştirildi */
+div{
+
+color: mediumspringgreen;
+
+text-align: start;
+
+}
+/* a komutu ile tum elemanalr değişir */
+a{
+
+    background-color:rgb(13, 152, 171);
+    font-size: 25px;
+}
+/*  html classında isim verilen p komutuun class isminin onune . koyarak sadece o kısım ile
+calışma yapılabilir bu ayede ayrı yerler icin değişklik yapılabilir */
+.bir{
+
+    color: blue;
+    background-color: initial;
+}
+.iki{
+    color: rgb(104, 142, 66);
+    background-color: lightsteelblue;
+}
