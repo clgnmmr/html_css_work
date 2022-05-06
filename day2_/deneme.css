@@ -11,29 +11,58 @@ p{
     text-align: left;
     font-size: 20px;
     background-color: red;
+    border: 3px solid rgb(46, 184, 25);
+    
 }
 /* div komutu ile div ile alakalı tum elemanlar değiştirildi */
 div{
-
-color: mediumspringgreen;
-
-text-align: start;
+  
+    font-size: larger;
+    color: blue;
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0 brown;
+    /* display komutu ile yanyan gelirler */
+    display: flex;
 
 }
-/* a komutu ile tum elemanalr değişir */
+/* a komutu ile tum elemanalr değişir 
+a tag altında cizgi istemezsek text-decaration : none */
+
 a{
 
     background-color:rgb(13, 152, 171);
     font-size: 25px;
+    text-decoration: none;
+    
 }
 /*  html classında isim verilen p komutuun class isminin onune . koyarak sadece o kısım ile
 calışma yapılabilir bu ayede ayrı yerler icin değişklik yapılabilir */
 .bir{
 
     color: blue;
-    background-color: initial;
+    background-color: rgb(134, 172, 215);
+    width: 100 px;
+    height: 200 px;
+    border: 5px dashed rgb(46, 184, 25);
+  
 }
 .iki{
     color: rgb(104, 142, 66);
-    background-color: lightsteelblue;
-}
+    background-color: rgb(31, 98, 185);
+    font-style: italic;           
+    /* font-style ile yazını sekl değişir  */
+    font-weight: 900;
+    /* font-weight ile yazının kalınlıgı arttı */
+    font-size: 25px;
+    width: 300 px;
+    height: 400 px;
+    border: 2px solid rgb(46, 184, 25);
+    border-radius: 100 px;
+    /* box-shadow  ile kutucuga gölge verilmiş olacak  */
+    box-shadow: 10px 10px 5px 0 brown;
+  }
+  

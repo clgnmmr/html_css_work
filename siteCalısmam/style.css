@@ -1,0 +1,28 @@
+header,footer{
+    display: flex;
+    
+}
+header{
+    justify-content: space-between;
+}
+footer{
+
+    
+    justify-items: end;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.anasayfa{
+    background-color: blue;
+}
+.hakkimizda{
+    background-color: blueviolet;
+}
+.oneriler{
+    background-color: aqua;
+}
+.urunler{
+    background-color: brown;
+}
