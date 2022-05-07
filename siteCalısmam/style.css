@@ -13,9 +13,12 @@ footer p {
 a {
   text-decoration: none;
   color: black;
+  padding :5px;
+  text-transform: uppercase;
 }
 a:hover{
     text-decoration: underline;
+    background-color: beige;
 }
 .anasayfa {
   background-color: bisque;
@@ -28,6 +31,9 @@ a:hover{
 }
 .hakkimizda {
   background-color: coral;
+}
+.giris{
+    background-color: rgb(215, 215, 215);
 }
 .anasayfa img,
 .oneriler img {
@@ -56,5 +62,42 @@ a:hover{
 h1{
     color: brown;
     text-align: center;
+    font-size: 25px;
+}
+table{
+    background-color: blanchedalmond;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+table tr th,
+table tr td{
+    padding: 20px;
+}
+form{
+    color: brown;
+    text-align: center;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  text-decoration:underline;
+    font-size: 15px;
+
+}
+form p{
+    padding: 10px;
+
+}
+.buton{
+    text-align: center;
+}
+.gonder{
+    text-align: center;
+}
+.temizle{
+    text-align: right;
 }
 
