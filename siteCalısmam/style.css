@@ -1,28 +1,60 @@
-header,footer{
-    display: flex;
-    
+header,
+footer {
+  display: flex;
+  background-color: gray;
+  padding: 30px;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 15px;
 }
-header{
-    justify-content: space-between;
+footer p {
+  margin-top: 0;
 }
-footer{
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.anasayfa {
+  background-color: bisque;
+}
+.personeller {
+  background-color: cadetblue;
+}
+.oneriler {
+  background-color: aqua;
+}
+.hakkimizda {
+  background-color: coral;
+}
+.anasayfa img,
+.oneriler img {
+  width: 50%;
+  height: 50%;
+}
+.resimler img{
+    width: 15%;
+    height: 15%;
 
+}
+.resimler{
+    display: flex;
+    flex-direction: column;
     
-    justify-items: end;
 }
-a{
-    text-decoration: none;
-    color: black;
+.hakkimizda ul li{
+    margin-bottom: 15px;
+    padding: 2rem;
+    width: 50px;
+    height: 20px;
+    background-color: bisque;
+    border: 3px solid red;
+    border-radius: 15px;
 }
-.anasayfa{
-    background-color: blue;
+h1{
+    color: brown;
+    text-align: center;
 }
-.hakkimizda{
-    background-color: blueviolet;
-}
-.oneriler{
-    background-color: aqua;
-}
-.urunler{
-    background-color: brown;
-}
+
