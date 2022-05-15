@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form ozellikleri
+    </h1>
+    <form autocomplete="on">
+       Ad SOYAD: <input type="text" name="adsoyad" id="adsoyad"
+       required size="15" maxlength="50" 
+       autofocus placeholder="ad soyad yaz" value="">
+
+       <br>
+       oneri:
+       <textarea name="oneri" id="öneri" cols="10" rows="5"></textarea>
+       <br>
+       <h4>ONAY KUTUSU</h4>
+       <input type="checkbox" name="bulten" id=""> bultene abone ol
+       <br>
+       <input type="checkbox" name="medeni" id="">evliyim
+
+
+       <h4>SEVDİĞİN SPOR</h4>
+       <input type="radio" name="spor" value="futbol" checked>Futbol
+       <input type="radio" name="spor" value="basketbol">Basketboll
+
+       
+     <h4>SECENEK LİSTESİ</h4>
+     <select name="dyeri" id="dyeri">
+         <option >adana</option>
+         <option >izmir</option>
+         <option selected>istanbul</option>
+     </select>
+
+
+
+
+
+
+<br>   <br>    <input type="submit" ><input type="reset" >
+
+
+
+    </form>
+
+    <h1>RESİMLİ ONAY FORmU</h1>
+    <form name="onay" action="onay.php" method="get">
+        ad soyad: <input type="text" name="adsoyad" id="">
+        <br>
+        parola: <input type="password" name="parola" id="">
+        <br>
+        <input type="image" src="../img/clockoffice.jpg" width="20">
+      
+
+
+
+    </form>
+    
+</body>
+</html>
